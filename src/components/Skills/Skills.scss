@@ -1,0 +1,100 @@
+@import '../../scss/variables.scss';
+@import '../../scss/animations.scss';
+
+.skills {
+    padding: 4rem 0 0;
+
+    h2 {
+        text-align: center;
+        color: $dark;
+    }
+
+    p {
+        color: $gray;
+    }
+
+    .description {
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+
+    .deck {
+        padding-top: 1.5rem;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+    }
+
+    .other {
+        background-color: $light;
+    }
+
+    i {
+        font-size: 2rem;
+        padding-right: 1rem;
+        color: $gray;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .skills {
+        background-color: $light;
+        padding-bottom: 4rem;
+
+        .deck {
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            flex-direction: column;
+            margin: 0 0.25rem;
+            padding: 3rem 1rem 1rem;
+            align-items: flex-start;
+            width: 15rem;
+
+            &:hover {
+                box-shadow: 0px 4px 2px -2px rgba($dark, 0.2);
+                -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            }
+
+            p {
+                padding-top: 0.6rem;
+            }
+        }
+
+        .other {
+            background-color: white;
+        }
+
+        h3 {
+            padding-top: 1.1rem;
+            padding-bottom: 0.1rem;
+        }
+
+        i {
+            font-size: 2.4rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 875px) {
+    .skills {
+        .card {
+            width: 17rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .skills {
+        .card {
+            margin: 0 0.5rem;
+        }
+    }
+}

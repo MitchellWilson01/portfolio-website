@@ -1,0 +1,65 @@
+@import './variables.scss';
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 320px;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    padding-bottom: 3.6rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding-top: 3.2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+}

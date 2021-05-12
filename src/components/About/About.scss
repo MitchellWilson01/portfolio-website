@@ -1,0 +1,38 @@
+@import '../../scss/variables.scss';
+
+.about {
+    padding: 4rem 1rem 4rem;
+
+    .outter {
+        position: relative;
+        padding-top: 1rem;
+        margin: 0 auto;
+    }
+
+    h2 {
+        color: $dark;
+        text-align: center;
+    }
+
+    h3 {
+        color: $blue;
+        margin-top: 1.5rem;
+    }
+
+    p {
+        color: $gray;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .about {
+        padding-bottom: 8rem;
+
+        .outter {
+            font-size: 1rem;
+            max-width: 66ch;
+            margin: 0 auto;
+        }
+    }     
+}

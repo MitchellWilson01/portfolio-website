@@ -1,0 +1,68 @@
+@import '../../scss/variables.scss';
+
+.contact {
+    padding: 2rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        text-align: center;
+        padding-top: 1rem;
+        color: $dark;
+    }
+    
+    .fa-comments {
+        font-size: 10rem;
+        text-align: center;
+        width: 100%;
+        color: $gray !important
+    }
+
+    .info {
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+
+    i {
+        color: $gray;
+    }
+
+    p {
+        color: $blue;
+        font-weight: 600;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 4rem;
+        width: 15rem;
+        border-radius: 3rem;
+        outline: none;
+        background-color: white;
+        border: solid $dark 1px;
+        height: 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+
+        &:hover {
+            background-color: $dark;
+            color: white;
+        }
+    }
+
+    .text {
+        color: $gray;
+        padding-top: 2rem;
+        padding-left: 0.2rem;
+        font-weight: 400;
+        max-width: 31ch;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
