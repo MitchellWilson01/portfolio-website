@@ -28,9 +28,9 @@ const Footer = () => {
             {mobile ? null :
                 <div className="buttons">
                     <i className="fas fa-home"></i>
-                    <i class="fab fa-github-alt"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                    <i class="fas fa-palette"></i>
+                    <i className="fab fa-github-alt"></i>
+                    <i className="fab fa-linkedin-in"></i>
+                    <i className="fas fa-palette"></i>
                 </div>
             }
             {mobile ? smallScreenInfo : bigScreenInfo}

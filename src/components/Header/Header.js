@@ -22,7 +22,7 @@ const Header = () => {
                 <Link className="link" to="/">
                     <i className="fas fa-home"></i>
                 </Link>
-                <Link className="link" to="/">
+                <Link className="link" to="/projects">
                     <i className="fas fa-palette"></i>
                 </Link>
             </div>
@@ -33,7 +33,7 @@ const Header = () => {
                 <Link className="link" to="/">
                     HOME
                 </Link>
-                <Link className="link" to="/">
+                <Link className="link" to="/projects">
                     PROJECTS
                 </Link>
                 <Link className="link" to="/">

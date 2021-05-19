@@ -1,4 +1,5 @@
 @import '../../scss/variables.scss';
+@import '../../scss/animations.scss';
 
 .action {
     padding: 4rem 1rem 0;
@@ -11,7 +12,7 @@
         width: 15rem;
         border-radius: 3rem;
         outline: none;
-        background-color: white;
+        background-color: transparent;
         border: solid $dark 1px;
         height: 2rem;
         font-size: 1rem;
@@ -20,10 +21,25 @@
         &:hover {
             background-color: $dark;
             color: white;
+            box-shadow: 0px 4px 2px -2px rgba($dark, 0.2);
+            -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         }
     }
 
     .spacer {
         height: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .action {
+        padding: 0 1rem 8rem;
+        flex-direction: row;
+
+        button {
+            margin: 0 2rem;
+            height: 2.5rem;
+        }
     }
 }

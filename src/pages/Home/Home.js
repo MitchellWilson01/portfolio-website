@@ -24,6 +24,7 @@ const Home = () => {
             <Skills />
             {mobile ? <Action /> : null}
             <About />
+            {mobile ? null : <Action />}
         </div>
     ); 
 }

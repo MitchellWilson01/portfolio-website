@@ -16,6 +16,7 @@
 
     p {
         color: $gray;
+        width: 100%;
     }
 
     .info {
@@ -33,6 +34,8 @@
 
 @media only screen and (min-width: 768px) {
     .footer {
+        padding-bottom: 0;
+
         i {
             padding: 2rem 2rem 1rem;
             color: $blue;

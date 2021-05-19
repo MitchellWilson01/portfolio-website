@@ -1,5 +1,4 @@
 import React from 'react';
-import deer from '../../images/deer.png';
 import lion from '../../images/blueLion.png';
 import './Intro.scss';
 

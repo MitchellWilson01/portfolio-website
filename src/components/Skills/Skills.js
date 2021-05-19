@@ -30,7 +30,7 @@ const Skills = () => {
             <p className="description">Programming knowledge<br/>from the front
             to the back</p>
             <div className="deck">
-            <div className="card other">
+                <div className="card other">
                     <i className="fab fa-css3"></i>
                     <div className="text">
                         <h3>Front End</h3>
@@ -52,6 +52,8 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+
+            {mobile ? null : <a><button>Projects</button></a>}
         </div>
     );
 }
