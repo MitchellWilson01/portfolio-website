@@ -48,11 +48,3 @@ const Header = () => {
 }
 
 export default Header;
-
-/*
-    <Link className="link" to="/contact">
-        <i className="fas fa-address-book"></i>
-    </Link>
-    <i className="fas fa-home"></i>
-    <i className="fas fa-palette"></i>
-*/
