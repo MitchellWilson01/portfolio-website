@@ -9,10 +9,12 @@ const App = (props) => {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/projects" exact component={Projects} />
-      </Switch>
+      <div className="wrapper">
+        <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/projects" exact component={Projects} />
+        </Switch>
+      </div>
       <Footer />
     </Router>
   );

@@ -4,7 +4,6 @@
     text-align: center;
     background-color: $light;
     border-top: solid rgba($gray, 0.2) 1px;
-    padding-bottom: 2.8rem;
 
     .buttons {
         display: inline-flex;
@@ -29,6 +28,12 @@
         background-color: $blue;
         padding: 0.5rem;
         color: white;
+    }
+
+    .container {
+        display: inline-block;
+        position: relative;
+        margin: 0 auto;
     }
 }
 

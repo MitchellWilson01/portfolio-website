@@ -33,7 +33,7 @@ const About = () => {
                 with my friends, and play video games.</p>
             </div>
 
-            </div>
+        </div>
     );
 }
 

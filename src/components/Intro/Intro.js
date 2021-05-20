@@ -1,5 +1,5 @@
 import React from 'react';
-import lion from '../../images/blueLion.png';
+import lion from '../../images/lion.png';
 import './Intro.scss';
 
 const Intro = () => {
@@ -9,7 +9,7 @@ const Intro = () => {
                 <h1>Mitchell Wilson</h1>
                 <h5>SOFTWARE DEVELOPER</h5>
             </div>
-            <img src={lion}></img>
+            <img src={lion} alt="lion"></img>
         </div>
     );
 }

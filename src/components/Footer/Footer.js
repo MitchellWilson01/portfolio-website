@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import './Footer.scss';
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
 
     const handleResize = () => {
         if (window.innerWidth < 768) {
-            setMobile(true)
+            setMobile(true);
         } else {
             setMobile(false);
         }
@@ -25,6 +24,7 @@ const Footer = () => {
 
     return (
         <div className="footer">
+            <div className="container">
             {mobile ? null :
                 <div className="buttons">
                     <i className="fas fa-home"></i>
@@ -34,6 +34,7 @@ const Footer = () => {
                 </div>
             }
             {mobile ? smallScreenInfo : bigScreenInfo}
+            </div>
             <p className="bottom">Copyright © Mitchell Wilson 2021</p>
         </div>
     );

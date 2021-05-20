@@ -1,4 +1,7 @@
 import React from 'react';
+import reddit from '../../images/Reddit-Gallery.JPG';
+import atom1 from '../../images/Atom-Notebook-1.jpg';
+import atom2 from '../../images/Atom-Notebook-2.jpg';
 import './Projects.scss';
 
 const Projects = () => {
@@ -12,7 +15,7 @@ const Projects = () => {
                 subreddits in a gallery-style format. It works by retreiving 
                 data from Reddit's API and is complete with custom sort options 
                 as well as the choice between a light and dark theme.</p>
-                <div className="image"></div>
+                <img src={reddit} alt="reddit gallery" className="reddit" />
             </div>
 
             <div className="project">
@@ -23,16 +26,11 @@ const Projects = () => {
                 users to create their own accounts and manage their schedule. 
                 Feel free to create your own account or to use "guest@email.com" 
                 and "123456" to login to the guest account.</p>
-                <div className="image-2"></div>
-            </div>
 
-            <div className="project">
-                <h2>Aspen Inudstrial Machines</h2>
-                <p>I was contracted by Aspen Industrial Machines LLC to recreate 
-                their outdated website from scratch. It contains many different 
-                pages with information about the company and of course is 
-                completely responsive.</p>
-                <div className="image"></div>
+                <div className="atom-images">
+                    <img src={atom1} alt="atom notebook 1" className="atom" />
+                    <img src={atom2} alt="atom notebook 2" className="atom" />
+                </div>
             </div>
         </div>
     );

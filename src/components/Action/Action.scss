@@ -31,15 +31,3 @@
         height: 0.5rem;
     }
 }
-
-@media only screen and (min-width: 768px) {
-    .action {
-        padding: 0 1rem 8rem;
-        flex-direction: row;
-
-        button {
-            margin: 0 2rem;
-            height: 2.5rem;
-        }
-    }
-}

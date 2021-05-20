@@ -1,17 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Skills.scss';
 
 const Skills = () => {
     const initialMobile = window.innerWidth < 875 ? true : false;
     const [mobile, setMobile] = useState(initialMobile);
 
-    const handleResize = () => {
-        if (window.innerWidth < 875) {
-            setMobile(true)
-        } else {
-            setMobile(false);
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 875) {
+                setMobile(true)
+            } else {
+                setMobile(false);
+            }
         }
-    }
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     const frontEnd = <p>Fully responsive applications that strike a balance 
         between functional and aesthetic design without sacrificing either of 
@@ -22,7 +27,6 @@ const Skills = () => {
         Science from Texas State University and hands on experience as a 
         full-time developer</p>
 
-    window.addEventListener("resize", handleResize);
 
     return (
         <div className="skills">
@@ -52,8 +56,6 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-
-            {mobile ? null : <a><button>Projects</button></a>}
         </div>
     );
 }

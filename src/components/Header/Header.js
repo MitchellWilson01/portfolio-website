@@ -36,12 +36,12 @@ const Header = () => {
                 <Link className="link" to="/projects">
                     PROJECTS
                 </Link>
-                <Link className="link" to="/">
+                <a className="link" href="https://linkedin.com/in/mitchellwilson01" target="_blank" rel="noreferrer">
                     LINKEDIN
-                </Link>
-                <Link className="link" to="/">
+                </a>
+                <a className="link" href="https://github.com/mitchellwilson01" target="_blank" rel="noreferrer">
                     GITHUB
-                </Link>
+                </a>
             </div>
         );
     }

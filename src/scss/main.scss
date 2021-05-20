@@ -18,7 +18,10 @@ body {
     height: 100%;
     overflow: auto;
     position: relative;
-    padding-bottom: 3.6rem;
+}
+
+.wrapper {
+    min-height: calc(100vh - 14rem);
 }
 
 h1 {
