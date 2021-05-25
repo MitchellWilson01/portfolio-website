@@ -30,6 +30,7 @@
     .atom-images {
         display: flex;
         justify-content: space-between;
+        min-height: 0;
     }
 
     .atom {
