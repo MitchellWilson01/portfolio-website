@@ -9,7 +9,11 @@ const Projects = () => {
         <div className="projects">
             <h1>Projects</h1>
             <div className="project">
-                <h2>Reddit Gallery</h2>
+                <h2>Reddit Gallery &nbsp;
+                    <a className="link" href="https://redditgallery.netlify.app" target="_blank" rel="noreferrer">
+                        <i className="fas fa-external-link-alt"></i>
+                    </a>
+                </h2>
                 <p>Reddit Gallery is an application that provides Redditors 
                 with the ability to browse their favorite image-focused 
                 subreddits in a gallery-style format. It works by retreiving 
@@ -19,7 +23,12 @@ const Projects = () => {
             </div>
 
             <div className="project">
-                <h2>Atom Notebook</h2>
+                <h2>
+                    Atom Notebook &nbsp;
+                    <a className="link" href="https://atomnotebook.netlify.app" target="_blank" rel="noreferrer">
+                        <i className="fas fa-external-link-alt"></i>
+                    </a>
+                </h2>
                 <p>This is my most recent project that I am still 
                 building, however its core functionality is already there. It 
                 is a mobile-first productivity application that allows 
