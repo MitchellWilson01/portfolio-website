@@ -13,12 +13,12 @@ const Footer = () => {
         }
     }
 
-    const bigScreenInfo = <p className="info">mitchellwilson@something.com 
-        &nbsp; | &nbsp; (713) 713-7133 &nbsp; | &nbsp; linkedin.com/in/mitchellwilson</p>
+    const bigScreenInfo = <p className="info">mitchellwilson01@outlook.com 
+        &nbsp; | &nbsp; (713) 206-7322 &nbsp; | &nbsp; linkedin.com/in/mitchellwilson01</p>
     const smallScreenInfo = <p className="info">
-        <i className="fas fa-envelope-square"></i> &nbsp;mitchellwilson@something.com<br/>
-        <i className="fab fa-linkedin"></i> &nbsp;linkedin.com/in/mitchellwilson<br/>
-        <i className="fas fa-phone-square"></i> &nbsp;(713) 713-7133</p>
+        <i className="fas fa-envelope-square"></i> &nbsp;mitchellwilson01@outlook.com<br/>
+        <i className="fab fa-linkedin"></i> &nbsp;linkedin.com/in/mitchellwilson01<br/>
+        <i className="fas fa-phone-square"></i> &nbsp;(713) 206-7322</p>
 
     window.addEventListener("resize", handleResize);
 
