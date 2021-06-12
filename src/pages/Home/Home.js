@@ -17,7 +17,7 @@ const Home = () => {
                 setMobile(false);
             }
         }
-    
+
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, []);
@@ -29,7 +29,9 @@ const Home = () => {
             {mobile ? <Action /> : null}
             <About />
         </div>
-    ); 
+    );
 }
 
 export default Home;
+
+// Testing dual boot commit
